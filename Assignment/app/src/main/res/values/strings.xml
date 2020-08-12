@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="textViewName">Name</string>
+    <string name="textViewCity">City</string>
+    <string name="textViewPhone">Phone</string>
+    <string name="textViewDate">Date</string>
+    <string name="texxtViewEmail">Email</string>
+    <string name="textViewResult">Result:</string>
+    <string name="buttonAccept">Accept</string>
+    <string name="buttonDecline">Decline</string>
+    <string name="textViewCountry">Country</string>
+</resources>

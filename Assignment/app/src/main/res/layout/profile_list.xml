@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/outline"
+        android:layout_width="400dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="20dp"
+        android:layout_height="250dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/textViewName"
+                android:fontFamily="@font/open_sans_bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:id="@+id/textViewName"
+                android:layout_height="match_parent"/>
+
+
+
+            <TextView
+                android:id="@+id/textViewCountry"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:text="@string/textViewCountry"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/textViewPhone"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:id="@+id/textViewPhone"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/textViewDate"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:id="@+id/textViewDOB"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/texxtViewEmail"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:id="@+id/textViewEmail"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/textViewResult"
+                android:visibility="gone"
+                android:fontFamily="@font/open_sans_semibold"
+                android:layout_marginTop="80dp"
+                android:layout_marginStart="50dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:id="@+id/textViewResult"
+                android:layout_height="match_parent"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:id="@+id/profileImage"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="240dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_height="140dp"/>
+
+            <Button
+                android:id="@+id/buttonAccept"
+                android:background="#03ff08"
+                android:text="@string/buttonAccept"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="155dp"
+                android:layout_marginRight="100dp"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <Button
+                android:id="@+id/buttonDecline"
+                android:text="@string/buttonDecline"
+                android:background="#ff0006"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="155dp"
+                android:layout_marginRight="100dp"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</RelativeLayout>
